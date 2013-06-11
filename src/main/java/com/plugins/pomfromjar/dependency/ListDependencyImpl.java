@@ -20,7 +20,7 @@ import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
 /**
- * Copyright Fidelity
+ * Copyright (c) 2012-2013 FMR LLC.
  * 
  * Licensed under The Apache Software License, Version 2.0 : http://www.apache.org/licenses/LICENSE-2.0.txt
  */

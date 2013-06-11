@@ -1,12 +1,41 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+<parent>
+<groupId>org.sonatype.oss</groupId>
+<artifactId>oss-parent</artifactId>
+<version>7</version>
+</parent>
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.plugins.pomfromjar</groupId>
 	<artifactId>pomfromjar-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>The maven main core project description</description>
+
+<url>http://maven.apache.org</url>
+
+<licenses>
+<license>
+<name>The Apache Software License, Version 2.0</name>
+<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+<distribution>repo</distribution>
+</license>
+</licenses>
+
+<scm>
+<connection>https://github.com/adrian-fidelity-user/pomfromjar-maven-plugin.git</connection>
+<developerConnection>https://github.com/adrian-fidelity-user/pomfromjar-maven-plugin.git</developerConnection>
+<url>https://github.com/adrian-fidelity-user/pomfromjar-maven-plugin.git</url>
+</scm>
+<developers>
+<developer>
+<id>1</id>
+<name>Adrian Ronayne</name>
+<email>adrian.ronayne@fmr.com</email>
+</developer>
+</developers>
 
 	<build>
 		<plugins>

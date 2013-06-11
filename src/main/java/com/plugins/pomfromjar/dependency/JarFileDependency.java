@@ -5,7 +5,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.maven.model.Dependency;
 
 /**
- * Copyright Fidelity
+ * Copyright (c) 2012-2013 FMR LLC.
  * 
  * Licensed under The Apache Software License, Version 2.0 : http://www.apache.org/licenses/LICENSE-2.0.txt
  */

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Copyright Fidelity
+ * Copyright (c) 2012-2013 FMR LLC.
  * 
  * Licensed under The Apache Software License, Version 2.0 : http://www.apache.org/licenses/LICENSE-2.0.txt
  */
