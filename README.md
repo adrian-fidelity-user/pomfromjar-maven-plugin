@@ -7,4 +7,6 @@ This also is less error prone than searching manually as have to rely on jar fil
 
 The core of this plugin operates by accessing the SHA-1 checksum of a given jar file and then invoking a REST service call on http://repository.sonatype.org/service/local/lucene/search?sha1= passing in the checksum as 'sha1' parameter which returns the dependency information.
 
-To run, execute the jUnit test class PluginTest.java . 
+This plugin will not find libraries that have not been added to the Sonatype Nexus repo, reasons for this can include licensing. In practice at least 80% of dependencies have been found.
+
+To run, either manually install the plugin into local repo or execute the jUnit test class PluginTest.java . 
